@@ -20,3 +20,4 @@ _Я начинающий тестировщик.
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/PyCharm.png" alt="PyCharm" width="50" height="50" />](https://www.jetbrains.com/pycharm/)
  
 ### Контакты
+[<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/TG.png" alt="TG" width="50" height="50" />](https://t.me/Maria_Tyun/)
