@@ -15,5 +15,7 @@ _Я начинающий тестировщик.
    <!--* [База инфопродуктов](https://) -->
 
 ### Инструменты
-
+ [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/Postman.png" alt="Postman" width="50" height="50" />](https://www.postman.com/)
+ [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/GitHub.png" alt="GitHub" width="50" height="50" />](https://github.com/)
+ 
 ### Контакты
