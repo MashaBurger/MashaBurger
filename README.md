@@ -12,7 +12,7 @@ _Я начинающий тестировщик.
 - Postman 
    <!--* [API Работа в России](https://) -->
 - SQL
-   <!--* [База инфопродуктов](https://) -->
+   * [База инфопродуктов](https://github.com/MashaBurger/MashaBurger/tree/main/SQL)
 
 ### Инструменты
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/Postman.png" alt="Postman" width="50" height="50" />](https://www.postman.com/)
