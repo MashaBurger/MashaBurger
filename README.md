@@ -11,7 +11,7 @@ _Я начинающий тестировщик.
    <!--* [Баг-репорты](https://) -->
    <!--* [Майнд-карты](https://) -->
 - Postman 
-   <!--* [API Работа в России](https://) -->
+   * [API Работа в России](https://github.com/MashaBurger/MashaBurger/blob/main/Postman/trudvsem.api)
 - SQL
    * [База инфопродуктов](https://github.com/MashaBurger/MashaBurger/tree/main/SQL)
 
