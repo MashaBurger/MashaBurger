@@ -1,0 +1,7 @@
+https://trudvsem.ru/opendata/api
+
+Вывод всех вакансий "тестировщик" в Алтайском крае (GET):
+http://opendata.trudvsem.ru/api/v1/vacancies/region/2200000000000?text=тестировщик
+
+Вывод всех вакансий "тестировщик" в Новосибирске (GET):
+http://opendata.trudvsem.ru/api/v1/vacancies/region/5400000000000?text=тестировщик
