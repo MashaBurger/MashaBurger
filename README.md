@@ -14,7 +14,7 @@ _Я начинающий тестировщик.
    * [API Работа в России](https://github.com/MashaBurger/MashaBurger/blob/main/Postman/trudvsem.api)
 - SQL
    * [База инфопродуктов](https://github.com/MashaBurger/MashaBurger/blob/main/SQL/InfoProducts.sql)
-   * [Задания MySQL](https://github.com/MashaBurger/MashaBurger/blob/main/SQL/sort_employees.sql)
+   * [Тестовые задания MySQL](https://github.com/MashaBurger/MashaBurger/blob/main/SQL/sort_employees.sql)
 
 ### Инструменты
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/Postman.png" alt="Postman" width="50" height="50" />](https://www.postman.com/)
