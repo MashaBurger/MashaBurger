@@ -44,10 +44,14 @@ select name, address, sotr_zarp from employees.sotr join employees.zarp on zarp.
 Имя сотрудника; Адрес; Зарплата
 Примечание. Если по одному из сотрудников зарплата не указана, то в результирующей выборке в поле Зарплата указывать 0.*/
 
-/*Вариант решения 1 (функция coalesce):*/ 
+/*Вариант решения 1 (ifnull):*/
+select name, address, ifnull(sotr_zarp, 0) as zarp from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
+
+/*Вариант решения 2 (функция coalesce):*/ 
 select name, address, coalesce(sotr_zarp, 0) as zarp 
 	from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
-/*Вариант решения 2 (функция if):*/
+
+/*Вариант решения 3 (функция if):*/
 select name, address, if(sotr_zarp is null, 0, sotr_zarp) as zarp 
 	from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
 
