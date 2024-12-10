@@ -1,4 +1,4 @@
-/*Случайное тестовое задание по mySQL, найденное на просторах сети*/
+/*Случайное тестовое задание по mySQL, найденное на просторах сети: сортируем сотрудников*/
 
 create database employees;
 
@@ -74,7 +74,11 @@ insert into employees.payments values
     	('Маша', '2007-05-31', 300), 
     	('Петр', '2007-05-31', 100); 
 
-
+/* Написать запрос, который из таблиц SOTR и PAYMENTS выводит следующую информацию:
+Имя сотрудника; Общая выплаченная сумма
+Примечание. Если по одному из сотрудников не было выплат, то в поле с общей выплаченной суммой указывать 0.
+*/
+select name, ifnull(sum(amount), 0) from employees.sotr left join employees.payments on payments.sotr_name=sotr.name group by name;
 
 
 
