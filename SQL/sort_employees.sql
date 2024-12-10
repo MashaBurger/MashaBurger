@@ -27,13 +27,13 @@ select * from employees.sotr where sex='W';
 /*Условие: Есть еще одна таблица zarp со следующей структурой: */
 create table employees.zarp (
 	sotr_name varchar(100),
-    sotr_zarp decimal(6,2)
+    	sotr_zarp decimal(6,2)
 );
 
 insert into employees.zarp values
-('Петр', '100'),
-('Федор', '200'),
-('Маша', '300');
+	('Петр', 100),
+	('Федор', 200),
+	('Маша', 300);
 
 /* из таблиц SOTR и ZARP выводим информацию по сотруднику Федор:
 Имя сотрудника; Адрес; Зарплата */
@@ -45,7 +45,8 @@ select name, address, sotr_zarp from employees.sotr join employees.zarp on zarp.
 Примечание. Если по одному из сотрудников зарплата не указана, то в результирующей выборке в поле Зарплата указывать 0.*/
 
 /*Вариант решения 1 (ifnull):*/
-select name, address, ifnull(sotr_zarp, 0) as zarp from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
+select name, address, ifnull(sotr_zarp, 0) as zarp 
+	from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
 
 /*Вариант решения 2 (функция coalesce):*/ 
 select name, address, coalesce(sotr_zarp, 0) as zarp 
@@ -54,6 +55,24 @@ select name, address, coalesce(sotr_zarp, 0) as zarp
 /*Вариант решения 3 (функция if):*/
 select name, address, if(sotr_zarp is null, 0, sotr_zarp) as zarp 
 	from employees.sotr left join employees.zarp on zarp.sotr_name = sotr.name;
+
+
+/*Есть таблица PAYMENTS с выплатами зарплаты по месяцам, со следующей структурой: */
+create table employees.payments (
+	sotr_name varchar(100),
+    	pay_date date,
+    	amount decimal(6,2)
+);
+
+insert into employees.payments values
+	('Петр', '2007-03-30', 70),
+    	('Федор', '2007-03-30', 200), 
+    	('Петр', '2007-04-30', 100), 
+   	('Маша', '2007-04-30', 250), 
+    	('Федор', '2007-04-30', 200), 
+    	('Федор', '2007-05-31', 200), 
+    	('Маша', '2007-05-31', 300), 
+    	('Петр', '2007-05-31', 100); 
 
 
 
