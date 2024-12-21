@@ -21,6 +21,7 @@ _Я начинающий тестировщик.
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/Postman.png" alt="Postman" width="50" height="50" />](https://www.postman.com/)
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/GitHub.png" alt="GitHub" width="50" height="50" />](https://github.com/)
  [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/PyCharm.png" alt="PyCharm" width="50" height="50" />](https://www.jetbrains.com/pycharm/)
+ [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/workbrench.png" alt="MySQLworkbrench" width="50" height="50" />](https://www.mysql.com/products/workbench/)
  
 ### Контакты
 [<img src="https://github.com/MashaBurger/MashaBurger/blob/main/images/TG.png" alt="TG" width="50" height="50" />](https://t.me/Maria_Tyun/)
