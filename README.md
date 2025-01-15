@@ -5,8 +5,8 @@ _Я начинающий тестировщик.
 
 ### Портфолио (в разработке)
 - Тестовая документация
-  * [Тестирование сайта Собаседник](https://docs.google.com/spreadsheets/d/1RVEp7daCXG1Ftfxz9ZJGGZutczYXvrca/edit?usp=drive_link&ouid=104390707361906419962&rtpof=true&sd=true/)
-  <!-- * [Тест-кейсы](https://) -->
+  * [Тестирование сайта Собаседник: чек-лист, тест-кейс, баг-репорт](https://docs.google.com/spreadsheets/d/1RVEp7daCXG1Ftfxz9ZJGGZutczYXvrca/edit?usp=drive_link&ouid=104390707361906419962&rtpof=true&sd=true/)
+  * [Тест-кейсы страница "Пользователи"](https://docs.google.com/spreadsheets/d/1cL_JukJhz1pm2glaRFnmUFdRP3EPIShp/edit?usp=sharing&ouid=104390707361906419962&rtpof=true&sd=true/)
    <!--* [Чек-листы](https://) -->
    <!--* [Баг-репорты](https://) -->
    <!--* [Майнд-карты](https://) -->
